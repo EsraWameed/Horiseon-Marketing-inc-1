@@ -1,9 +1,10 @@
+/*Universal Selector*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Element Selectors*/
 body {
     background-color: #d9dcd6;
 }
@@ -20,10 +21,6 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
-    color: #d9dcd6;
-}
-
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,11 +29,11 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
+nav ul {
     list-style-type: none;
 }
 
-header nav ul li {
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -45,15 +42,7 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-size: cover;
-    background-position: center;
-}
-
+/*removed .content and attached styling to css*/
 main {
     width: 75%;
     display: inline-block;
@@ -87,12 +76,12 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* consolidated .benefit-lead .benefit-brand .benefit-cost*/
 article {
     margin-bottom: 32px;
     color: #ffffff; 
 }
-
+/*consolidated .benefit-lead .benefit-brand .benefit-*/
 h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -102,6 +91,24 @@ article img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+}
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;  
+}
+/*class selectors*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
 }
 
 .float-left {
@@ -113,17 +120,7 @@ article img {
     float: right;
     margin-left: 25px;
 }
-
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;  
+/*id selector. Removed header h1 because there's only one seo and changed to id*/
+#seo {
+    color: #d9dcd6;
 }
-
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-
