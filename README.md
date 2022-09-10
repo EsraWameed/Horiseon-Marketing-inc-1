@@ -7,8 +7,8 @@ To meet accessibility standards and search engine optimization, Horiseon's Marke
 To accomplish this, semantic elements replaced multiple divs, alternative attribute was added to images, broken links fixed, and CSS code refactored and consolidated to reduce redundancy.
 
 ## Technologies Used
--HTML
--CSS
+- HTML
+- CSS
 
 ## Deployed Application
 
